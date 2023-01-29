@@ -1,5 +1,6 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 import com.android.build.OutputFile
 
@@ -29,7 +30,7 @@ react {
     // nodeExecutableAndArgs = ["node"]
     //
     //   The command to run when bundling. By default is 'bundle'
-    // bundleCommand = "ram-bundle"
+    // bundleCommand = "ram-bundle" 
     //
     //   The path to the CLI configuration file. Default is empty.
     // bundleConfig = file(../rn-cli.config.js)
